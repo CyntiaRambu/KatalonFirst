@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_ubah</name>
+   <tag></tag>
+   <elementGuidId>0f014550-afb1-4572-8e17-e7c93e9c458c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'chakra-menu__menuitem css-13c7rae' and @data-index = '0']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-menu__menuitem css-13c7rae</value>
+      <webElementGuid>5a0675d2-57fb-48c7-88af-a8f4b981313e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>href=&quot;/categories</value>
+      <webElementGuid>b1b2de17-2e7b-4d18-bfa3-fabe73284934</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>1e679f08-2f19-4fb6-b842-6beedb0bedf8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

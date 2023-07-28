@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Del_Kategori" time="11.226" tests="2" failures="0" errors="0">
+   <testsuite name="Del_Kategori" tests="2" failures="0" errors="0" time="11.226" skipped="0" timestamp="2023-07-26 15:10:37" hostname="LENOVO - DESKTOP-U54EK95" id="Test Suites/KasirAja/Del_Kategori">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\git\\FirstKatalon\\Reports\\20230726_151036\\KasirAja\\Del_Kategori\\20230726_151036"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\git\\FirstKatalon\\Reports\\20230726_151036\\KasirAja\\Del_Kategori\\20230726_151036\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-U54EK95"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="c6ea33b20c802dd8d5a117b08644e600"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/KasirAja/TC_02_LoginSuccess - Copy" time="6.84" classname="Test Cases/KasirAja/TC_02_LoginSuccess - Copy" status="PASSED">
+         <system-out><![CDATA[2023-07-26 15:10:38 - [TEST_CASE][PASSED] - Test Cases/KasirAja/TC_02_LoginSuccess - Copy: Test Cases/KasirAja/TC_02_LoginSuccess - Copy
+
+2023-07-26 15:10:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-26 15:10:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-26 15:10:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-26 15:10:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-26 15:10:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-26 15:10:40 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-26 15:10:40 - [TEST_STEP][PASSED] - navigateToUrl("https://kasirdemo.belajarqa.com"): Navigate to 'https://kasirdemo.belajarqa.com' successfully
+
+2023-07-26 15:10:41 - [MESSAGE][PASSED] - Navigate to 'https://kasirdemo.belajarqa.com' successfully
+
+2023-07-26 15:10:41 - [TEST_STEP][PASSED] - setText(findTestObject("KasirAja/Login/txt_email"), "KasirAja_Test@Test.com"): Text 'KasirAja_Test@Test.com' is set on object 'Object Repository/KasirAja/Login/txt_email'
+
+2023-07-26 15:10:42 - [MESSAGE][PASSED] - Text 'KasirAja_Test@Test.com' is set on object 'Object Repository/KasirAja/Login/txt_email'
+
+2023-07-26 15:10:42 - [TEST_STEP][PASSED] - setText(findTestObject("KasirAja/Login/txt_password"), "123456"): Text '123456' is set on object 'Object Repository/KasirAja/Login/txt_password'
+
+2023-07-26 15:10:43 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/KasirAja/Login/txt_password'
+
+2023-07-26 15:10:43 - [TEST_STEP][PASSED] - click(findTestObject("KasirAja/Login/btn_login")): Object: 'Object Repository/KasirAja/Login/btn_login' is clicked on
+
+2023-07-26 15:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/KasirAja/Login/btn_login' is clicked on
+
+2023-07-26 15:10:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("KasirAja/Login/verify_home"), 0): Object 'Object Repository/KasirAja/Login/verify_home' is present
+
+2023-07-26 15:10:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-26 15:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/KasirAja/Login/verify_home' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KasirAja/TC_05_DelKategori" time="4.192" classname="Test Cases/KasirAja/TC_05_DelKategori" status="PASSED">
+         <system-out><![CDATA[2023-07-26 15:10:45 - [TEST_CASE][PASSED] - Test Cases/KasirAja/TC_05_DelKategori: Test Cases/KasirAja/TC_05_DelKategori
+
+2023-07-26 15:10:45 - [TEST_STEP][PASSED] - click(findTestObject("KasirAja/Kategori/btn_kategori")): Object: 'Object Repository/KasirAja/Kategori/btn_kategori' is clicked on
+
+2023-07-26 15:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/KasirAja/Kategori/btn_kategori' is clicked on
+
+2023-07-26 15:10:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("KasirAja/Kategori/Verify_kategori"), 3): Object 'Object Repository/KasirAja/Kategori/Verify_kategori' is present
+
+2023-07-26 15:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/KasirAja/Kategori/Verify_kategori' is present
+
+2023-07-26 15:10:46 - [TEST_STEP][PASSED] - click(findTestObject("KasirAja/Kategori/btn_titikmenu")): Object: 'Object Repository/KasirAja/Kategori/btn_titikmenu' is clicked on
+
+2023-07-26 15:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/KasirAja/Kategori/btn_titikmenu' is clicked on
+
+2023-07-26 15:10:46 - [TEST_STEP][PASSED] - click(findTestObject("KasirAja/Kategori/btn_delkategori")): Object: 'Object Repository/KasirAja/Kategori/btn_delkategori' is clicked on
+
+2023-07-26 15:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/KasirAja/Kategori/btn_delkategori' is clicked on
+
+2023-07-26 15:10:47 - [TEST_STEP][PASSED] - click(findTestObject("KasirAja/Kategori/btn_delete")): Object: 'Object Repository/KasirAja/Kategori/btn_delete' is clicked on
+
+2023-07-26 15:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/KasirAja/Kategori/btn_delete' is clicked on
+
+2023-07-26 15:10:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("KasirAja/Kategori/alert_successdelete"), 3): Object 'Object Repository/KasirAja/Kategori/alert_successdelete' is present
+
+2023-07-26 15:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/KasirAja/Kategori/alert_successdelete' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-26 15:10:37 - [TEST_SUITE][PASSED] - Del_Kategori: Test Cases/KasirAja/TC_05_DelKategori]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

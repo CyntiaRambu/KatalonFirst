@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_delkategori</name>
+   <tag></tag>
+   <elementGuidId>4c8729c9-c7c1-4ebe-804d-d034ebb5983c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @role = 'menuitem' and @class = 'chakra-menu__menuitem css-13c7rae']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menu-list-19-menuitem-17</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e72ccd51-74d1-43f0-8490-84b242e93cbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>71164e49-7297-4395-baf5-dbc668319008</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-menu__menuitem css-13c7rae</value>
+      <webElementGuid>5cd557ea-26f7-4088-a02a-a3be96ef326b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>hapus</value>
+      <webElementGuid>90a7632f-f4bd-4631-b44c-62b8d3b85600</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Del_Kategori,Chrome 114.0.0.0,,,2023-07-26 15:10:37,2023-07-26 15:10:49,11.226s,PASSED
+,,,,,,,
+Test Cases/KasirAja/TC_02_LoginSuccess - Copy,Chrome 114.0.0.0,,,2023-07-26 15:10:38,2023-07-26 15:10:45,6.840s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-26 15:10:38,2023-07-26 15:10:40,2.154s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-26 15:10:40,2023-07-26 15:10:40,0.139s,PASSED
+"navigateToUrl(""https://kasirdemo.belajarqa.com"")",Chrome 114.0.0.0,,,2023-07-26 15:10:40,2023-07-26 15:10:41,0.950s,PASSED
+"setText(findTestObject(""KasirAja/Login/txt_email""), ""KasirAja_Test@Test.com"")",Chrome 114.0.0.0,,,2023-07-26 15:10:41,2023-07-26 15:10:42,0.917s,PASSED
+"setText(findTestObject(""KasirAja/Login/txt_password""), ""123456"")",Chrome 114.0.0.0,,,2023-07-26 15:10:42,2023-07-26 15:10:43,0.786s,PASSED
+"click(findTestObject(""KasirAja/Login/btn_login""))",Chrome 114.0.0.0,,,2023-07-26 15:10:43,2023-07-26 15:10:43,0.506s,PASSED
+"verifyElementPresent(findTestObject(""KasirAja/Login/verify_home""), 0)",Chrome 114.0.0.0,,,2023-07-26 15:10:43,2023-07-26 15:10:45,1.140s,PASSED
+,,,,,,,
+Test Cases/KasirAja/TC_05_DelKategori,Chrome 114.0.0.0,,,2023-07-26 15:10:45,2023-07-26 15:10:49,4.192s,PASSED
+"click(findTestObject(""KasirAja/Kategori/btn_kategori""))",Chrome 114.0.0.0,,,2023-07-26 15:10:45,2023-07-26 15:10:45,0.369s,PASSED
+"verifyElementPresent(findTestObject(""KasirAja/Kategori/Verify_kategori""), 3)",Chrome 114.0.0.0,,,2023-07-26 15:10:45,2023-07-26 15:10:46,0.564s,PASSED
+"click(findTestObject(""KasirAja/Kategori/btn_titikmenu""))",Chrome 114.0.0.0,,,2023-07-26 15:10:46,2023-07-26 15:10:46,0.479s,PASSED
+"click(findTestObject(""KasirAja/Kategori/btn_delkategori""))",Chrome 114.0.0.0,,,2023-07-26 15:10:46,2023-07-26 15:10:47,0.841s,PASSED
+"click(findTestObject(""KasirAja/Kategori/btn_delete""))",Chrome 114.0.0.0,,,2023-07-26 15:10:47,2023-07-26 15:10:47,0.581s,PASSED
+"verifyElementPresent(findTestObject(""KasirAja/Kategori/alert_successdelete""), 3)",Chrome 114.0.0.0,,,2023-07-26 15:10:47,2023-07-26 15:10:49,1.203s,PASSED

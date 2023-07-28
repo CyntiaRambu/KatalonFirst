@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_modproduk</name>
+   <tag></tag>
+   <elementGuidId>6da86eac-c037-4eec-9d56-0e71e1ff1080</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-index = '0' and @class = 'chakra-menu__menuitem css-13c7rae']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>838d0fc2-72ed-43ce-9d95-c6ad3f1f57e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>70a5bbd7-543a-4736-a91c-1994eb221754</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>91f61c6b-c3ab-40b1-9d76-4eed3824e22f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-menu__menuitem css-13c7rae</value>
+      <webElementGuid>af780c63-ed83-4c97-8976-937ee86715ac</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

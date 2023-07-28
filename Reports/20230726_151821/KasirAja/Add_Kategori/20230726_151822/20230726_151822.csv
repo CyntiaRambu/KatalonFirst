@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add_Kategori,Chrome 114.0.0.0,,,2023-07-26 15:18:24,2023-07-26 15:18:36,11.834s,PASSED
+,,,,,,,
+Test Cases/KasirAja/TC_02_LoginSuccess - Copy,Chrome 114.0.0.0,,,2023-07-26 15:18:24,2023-07-26 15:18:31,7.012s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-26 15:18:25,2023-07-26 15:18:27,2.332s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-26 15:18:27,2023-07-26 15:18:27,0.138s,PASSED
+"navigateToUrl(""https://kasirdemo.belajarqa.com"")",Chrome 114.0.0.0,,,2023-07-26 15:18:27,2023-07-26 15:18:28,0.941s,PASSED
+"setText(findTestObject(""KasirAja/Login/txt_email""), ""KasirAja_Test@Test.com"")",Chrome 114.0.0.0,,,2023-07-26 15:18:28,2023-07-26 15:18:29,0.939s,PASSED
+"setText(findTestObject(""KasirAja/Login/txt_password""), ""123456"")",Chrome 114.0.0.0,,,2023-07-26 15:18:29,2023-07-26 15:18:30,0.813s,PASSED
+"click(findTestObject(""KasirAja/Login/btn_login""))",Chrome 114.0.0.0,,,2023-07-26 15:18:30,2023-07-26 15:18:30,0.503s,PASSED
+"verifyElementPresent(findTestObject(""KasirAja/Login/verify_home""), 0)",Chrome 114.0.0.0,,,2023-07-26 15:18:30,2023-07-26 15:18:31,1.114s,PASSED
+,,,,,,,
+Test Cases/KasirAja/TC_04_AddKategori,Chrome 114.0.0.0,,,2023-07-26 15:18:31,2023-07-26 15:18:36,4.633s,PASSED
+"click(findTestObject(""KasirAja/Kategori/btn_kategori""))",Chrome 114.0.0.0,,,2023-07-26 15:18:32,2023-07-26 15:18:32,0.385s,PASSED
+"verifyElementPresent(findTestObject(""KasirAja/Kategori/Verify_kategori""), 3)",Chrome 114.0.0.0,,,2023-07-26 15:18:32,2023-07-26 15:18:33,0.563s,PASSED
+"click(findTestObject(""KasirAja/Kategori/btn_tambah""))",Chrome 114.0.0.0,,,2023-07-26 15:18:33,2023-07-26 15:18:33,0.399s,PASSED
+"setText(findTestObject(""KasirAja/Kategori/txt_namakategori""), ""Kertas"")",Chrome 114.0.0.0,,,2023-07-26 15:18:33,2023-07-26 15:18:34,0.865s,PASSED
+"setText(findTestObject(""KasirAja/Kategori/txt_deskripsikategori""), ""Bahan dasar kertas"")",Chrome 114.0.0.0,,,2023-07-26 15:18:34,2023-07-26 15:18:35,0.960s,PASSED
+"click(findTestObject(""KasirAja/Kategori/btn_simpan""))",Chrome 114.0.0.0,,,2023-07-26 15:18:35,2023-07-26 15:18:35,0.506s,PASSED
+"verifyElementPresent(findTestObject(""KasirAja/Kategori/alert_success""), 0)",Chrome 114.0.0.0,,,2023-07-26 15:18:35,2023-07-26 15:18:36,0.782s,PASSED
