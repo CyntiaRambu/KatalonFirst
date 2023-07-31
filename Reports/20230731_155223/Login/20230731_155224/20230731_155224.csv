@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 115.0.0.0,,,2023-07-31 15:52:29,2023-07-31 15:52:36,6.665s,PASSED
+,,,,,,,
+Test Cases/Saucedemo/Login,Chrome 115.0.0.0,,,2023-07-31 15:52:30,2023-07-31 15:52:36,6.466s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 15:52:30,2023-07-31 15:52:32,2.184s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 15:52:32,2023-07-31 15:52:32,0.157s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 115.0.0.0,,,2023-07-31 15:52:32,2023-07-31 15:52:34,1.472s,PASSED
+"setText(findTestObject(""Saucedemo/Login/txt_username""), ""standard_user"")",Chrome 115.0.0.0,,,2023-07-31 15:52:34,2023-07-31 15:52:34,0.773s,PASSED
+"setText(findTestObject(""Saucedemo/Login/txt_password""), ""secret_sauce"")",Chrome 115.0.0.0,,,2023-07-31 15:52:34,2023-07-31 15:52:35,0.751s,PASSED
+"click(findTestObject(""Saucedemo/Login/btn_login""))",Chrome 115.0.0.0,,,2023-07-31 15:52:35,2023-07-31 15:52:36,0.420s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo/Login/Verify_Home""), 0)",Chrome 115.0.0.0,,,2023-07-31 15:52:36,2023-07-31 15:52:36,0.438s,PASSED

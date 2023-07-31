@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,,,,2023-07-31 15:50:04,2023-07-31 15:50:05,1.049s,FAILED
+,,,,,,,
+Test Cases/Saucedemo/TC_06_Checkout,,,,2023-07-31 15:50:05,2023-07-31 15:50:05,0.084s,FAILED
+"click(findTestObject(""Saucedemo/Product/btn_Addtocart""))",,,,2023-07-31 15:50:05,2023-07-31 15:50:05,0.073s,FAILED

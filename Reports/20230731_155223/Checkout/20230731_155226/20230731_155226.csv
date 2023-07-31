@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,Chrome 115.0.0.0,,,2023-07-31 15:52:39,2023-07-31 15:52:53,13.495s,PASSED
+,,,,,,,
+Test Cases/Saucedemo/TC_06_Checkout,Chrome 115.0.0.0,,,2023-07-31 15:52:40,2023-07-31 15:52:53,13.302s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 15:52:40,2023-07-31 15:52:42,2.162s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 15:52:42,2023-07-31 15:52:42,0.165s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 115.0.0.0,,,2023-07-31 15:52:42,2023-07-31 15:52:43,0.875s,PASSED
+"setText(findTestObject(""Saucedemo/Login/txt_username""), ""standard_user"")",Chrome 115.0.0.0,,,2023-07-31 15:52:43,2023-07-31 15:52:44,0.831s,PASSED
+"setText(findTestObject(""Saucedemo/Login/txt_password""), ""secret_sauce"")",Chrome 115.0.0.0,,,2023-07-31 15:52:44,2023-07-31 15:52:45,0.750s,PASSED
+"click(findTestObject(""Saucedemo/Login/btn_login""))",Chrome 115.0.0.0,,,2023-07-31 15:52:45,2023-07-31 15:52:45,0.444s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo/Login/Verify_Home""), 0)",Chrome 115.0.0.0,,,2023-07-31 15:52:45,2023-07-31 15:52:45,0.442s,PASSED
+"click(findTestObject(""Saucedemo/Product/btn_Addtocart""))",Chrome 115.0.0.0,,,2023-07-31 15:52:45,2023-07-31 15:52:46,0.566s,PASSED
+"click(findTestObject(""Saucedemo/Product/btn_cart""))",Chrome 115.0.0.0,,,2023-07-31 15:52:46,2023-07-31 15:52:47,0.471s,PASSED
+"click(findTestObject(""Saucedemo/Product/btn_checkout""))",Chrome 115.0.0.0,,,2023-07-31 15:52:47,2023-07-31 15:52:47,0.481s,PASSED
+"setText(findTestObject(""Saucedemo/Product/txt_firstname""), ""Standard"")",Chrome 115.0.0.0,,,2023-07-31 15:52:47,2023-07-31 15:52:48,0.871s,PASSED
+"setText(findTestObject(""Saucedemo/Product/txt_lastname""), ""User"")",Chrome 115.0.0.0,,,2023-07-31 15:52:48,2023-07-31 15:52:49,0.944s,PASSED
+"setText(findTestObject(""Saucedemo/Product/txt_postalcode""), ""13131"")",Chrome 115.0.0.0,,,2023-07-31 15:52:49,2023-07-31 15:52:50,1.088s,PASSED
+"click(findTestObject(""Saucedemo/Product/btn_continue""))",Chrome 115.0.0.0,,,2023-07-31 15:52:50,2023-07-31 15:52:50,0.566s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo/Product/verify_overview""), 0)",Chrome 115.0.0.0,,,2023-07-31 15:52:50,2023-07-31 15:52:51,0.460s,PASSED
+"click(findTestObject(""Saucedemo/Product/btn_finish""))",Chrome 115.0.0.0,,,2023-07-31 15:52:51,2023-07-31 15:52:51,0.441s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo/Product/verify_completeorder""), 0)",Chrome 115.0.0.0,,,2023-07-31 15:52:51,2023-07-31 15:52:52,0.472s,PASSED
+"click(findTestObject(""Saucedemo/Product/btn_backhome""))",Chrome 115.0.0.0,,,2023-07-31 15:52:52,2023-07-31 15:52:52,0.454s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo/Login/Verify_Home""), 0)",Chrome 115.0.0.0,,,2023-07-31 15:52:52,2023-07-31 15:52:53,0.533s,PASSED
