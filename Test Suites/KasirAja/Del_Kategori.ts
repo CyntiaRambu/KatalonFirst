@@ -12,10 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>3dc45ceb-9c35-4530-8126-d5937d8c4ca9</testSuiteGuid>
    <testCaseLink>
-      <guid>ad4e6cb7-6765-4172-b1e7-834ea7e49abc</guid>
+      <guid>fbdfcf5a-bd4b-4f3a-a0b6-f4ca70eaab7d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/KasirAja/TC_02_LoginSuccess - Copy</testCaseId>
+      <testCaseId>Test Cases/KasirAja/TC_02_LoginSuccess - Copy - Copy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
