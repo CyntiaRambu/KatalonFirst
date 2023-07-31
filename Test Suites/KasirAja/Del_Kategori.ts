@@ -15,7 +15,7 @@
       <guid>fbdfcf5a-bd4b-4f3a-a0b6-f4ca70eaab7d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/KasirAja/TC_02_LoginSuccess - Copy - Copy</testCaseId>
+      <testCaseId>Test Cases/KasirAja/TC_02_LoginSuccess_withoutlogout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
