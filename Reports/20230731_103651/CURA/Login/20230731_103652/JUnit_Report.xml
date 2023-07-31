@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="13.609" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="13.609" skipped="0" timestamp="2023-07-31 10:36:54" hostname="LENOVO - DESKTOP-U54EK95" id="Test Suites/CURA/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Documents\\Rambu\\KatalonFirst\\Reports\\20230731_103651\\CURA\\Login\\20230731_103652"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Documents\\Rambu\\KatalonFirst\\Reports\\20230731_103651\\CURA\\Login\\20230731_103652\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-U54EK95"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="ef3571497c27991a7d7c80ed9b402449"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CURA/TC_01_LoginSuccess" time="13.439" classname="Test Cases/CURA/TC_01_LoginSuccess" status="PASSED">
+         <system-out><![CDATA[2023-07-31 10:36:54 - [TEST_CASE][PASSED] - Test Cases/CURA/TC_01_LoginSuccess: Test Cases/CURA/TC_01_LoginSuccess
+
+2023-07-31 10:36:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 10:36:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 10:36:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-31 10:36:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 10:36:56 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 10:36:59 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 10:36:59 - [TEST_STEP][PASSED] - click(findTestObject("CURA/btn_makeappointment")): Object: 'Object Repository/CURA/btn_makeappointment' is clicked on
+
+2023-07-31 10:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA/btn_makeappointment' is clicked on
+
+2023-07-31 10:37:00 - [TEST_STEP][PASSED] - setText(findTestObject("CURA/txt_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CURA/txt_username'
+
+2023-07-31 10:37:01 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURA/txt_username'
+
+2023-07-31 10:37:01 - [TEST_STEP][PASSED] - setText(findTestObject("CURA/txt_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURA/txt_password'
+
+2023-07-31 10:37:01 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURA/txt_password'
+
+2023-07-31 10:37:01 - [TEST_STEP][PASSED] - click(findTestObject("CURA/btn_login")): Object: 'Object Repository/CURA/btn_login' is clicked on
+
+2023-07-31 10:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA/btn_login' is clicked on
+
+2023-07-31 10:37:02 - [TEST_STEP][PASSED] - click(findTestObject("CURA/btn_home")): Object: 'Object Repository/CURA/btn_home' is clicked on
+
+2023-07-31 10:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA/btn_home' is clicked on
+
+2023-07-31 10:37:03 - [TEST_STEP][PASSED] - click(findTestObject("CURA/btn_logout")): Object: 'Object Repository/CURA/btn_logout' is clicked on
+
+2023-07-31 10:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA/btn_logout' is clicked on
+
+2023-07-31 10:37:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-31 10:37:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-31 10:37:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-31 10:37:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-31 10:36:54 - [TEST_SUITE][PASSED] - Login: Test Cases/CURA/TC_01_LoginSuccess]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

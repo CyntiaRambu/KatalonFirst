@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add_Kategori,,,,2023-07-31 10:04:00,2023-07-31 10:04:05,5.301s,FAILED
+,,,,,,,
+Test Cases/KasirAja/TC_02_LoginSuccess - Copy,,,,2023-07-31 10:04:03,2023-07-31 10:04:04,1.314s,FAILED
+"openBrowser("""")",,,,2023-07-31 10:04:03,2023-07-31 10:04:04,1.297s,FAILED
+,,,,,,,
+Test Cases/KasirAja/TC_04_AddKategori,,,,2023-07-31 10:04:05,2023-07-31 10:04:05,0.060s,FAILED
+"click(findTestObject(""KasirAja/Kategori/btn_kategori""))",,,,2023-07-31 10:04:05,2023-07-31 10:04:05,0.059s,FAILED

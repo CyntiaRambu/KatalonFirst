@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 115.0.0.0,,,2023-07-31 10:36:54,2023-07-31 10:37:08,13.609s,PASSED
+,,,,,,,
+Test Cases/CURA/TC_01_LoginSuccess,Chrome 115.0.0.0,,,2023-07-31 10:36:54,2023-07-31 10:37:08,13.439s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 10:36:54,2023-07-31 10:36:56,1.946s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 115.0.0.0,,,2023-07-31 10:36:56,2023-07-31 10:36:59,2.972s,PASSED
+"click(findTestObject(""CURA/btn_makeappointment""))",Chrome 115.0.0.0,,,2023-07-31 10:36:59,2023-07-31 10:37:00,0.785s,PASSED
+"setText(findTestObject(""CURA/txt_username""), ""John Doe"")",Chrome 115.0.0.0,,,2023-07-31 10:37:00,2023-07-31 10:37:01,0.666s,PASSED
+"setText(findTestObject(""CURA/txt_password""), ""ThisIsNotAPassword"")",Chrome 115.0.0.0,,,2023-07-31 10:37:01,2023-07-31 10:37:01,0.667s,PASSED
+"click(findTestObject(""CURA/btn_login""))",Chrome 115.0.0.0,,,2023-07-31 10:37:01,2023-07-31 10:37:02,0.885s,PASSED
+"click(findTestObject(""CURA/btn_home""))",Chrome 115.0.0.0,,,2023-07-31 10:37:02,2023-07-31 10:37:03,0.358s,PASSED
+"click(findTestObject(""CURA/btn_logout""))",Chrome 115.0.0.0,,,2023-07-31 10:37:03,2023-07-31 10:37:04,0.996s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-07-31 10:37:04,2023-07-31 10:37:07,3.032s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-31 10:37:07,2023-07-31 10:37:08,0.871s,PASSED

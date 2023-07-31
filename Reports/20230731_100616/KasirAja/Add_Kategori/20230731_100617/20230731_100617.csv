@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add_Kategori,Chrome 115.0.0.0,,,2023-07-31 10:06:19,2023-07-31 10:07:32,1m - 12.603s,FAILED
+,,,,,,,
+Test Cases/KasirAja/TC_02_LoginSuccess - Copy,Chrome 115.0.0.0,,,2023-07-31 10:06:23,2023-07-31 10:06:26,2.969s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 10:06:23,2023-07-31 10:06:25,1.964s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 10:06:25,2023-07-31 10:06:25,0.135s,PASSED
+"navigateToUrl(""https://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-31 10:06:25,2023-07-31 10:06:26,0.640s,PASSED
+"setText(findTestObject(""KasirAja/txt_email""), ""KasirAja_Test@Test.com"")",Chrome 115.0.0.0,,,2023-07-31 10:06:26,2023-07-31 10:06:26,0.209s,FAILED
+,,,,,,,
+Test Cases/KasirAja/TC_04_AddKategori,Chrome 115.0.0.0,,,2023-07-31 10:06:59,2023-07-31 10:07:32,32.548s,FAILED
+"click(findTestObject(""KasirAja/Kategori/btn_kategori""))",Chrome 115.0.0.0,,,2023-07-31 10:06:59,2023-07-31 10:07:32,32.543s,FAILED

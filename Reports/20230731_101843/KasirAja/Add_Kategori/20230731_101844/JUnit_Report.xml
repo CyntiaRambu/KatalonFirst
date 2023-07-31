@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add_Kategori" time="12.236" tests="2" failures="0" errors="0">
+   <testsuite name="Add_Kategori" tests="2" failures="0" errors="0" time="12.236" skipped="0" timestamp="2023-07-31 10:18:46" hostname="LENOVO - DESKTOP-U54EK95" id="Test Suites/KasirAja/Add_Kategori">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Documents\\Rambu\\KatalonFirst\\Reports\\20230731_101843\\KasirAja\\Add_Kategori\\20230731_101844"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Documents\\Rambu\\KatalonFirst\\Reports\\20230731_101843\\KasirAja\\Add_Kategori\\20230731_101844\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-U54EK95"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="b1971111dc855e4e6b88651b2c3be253"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/KasirAja/TC_02_LoginSuccess - Copy" time="6.79" classname="Test Cases/KasirAja/TC_02_LoginSuccess - Copy" status="PASSED">
+         <system-out><![CDATA[2023-07-31 10:18:46 - [TEST_CASE][PASSED] - Test Cases/KasirAja/TC_02_LoginSuccess - Copy: Test Cases/KasirAja/TC_02_LoginSuccess - Copy
+
+2023-07-31 10:18:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 10:18:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 10:18:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-31 10:18:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 10:18:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-31 10:18:49 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-31 10:18:49 - [TEST_STEP][PASSED] - navigateToUrl("https://kasirdemo.belajarqa.com"): Navigate to 'https://kasirdemo.belajarqa.com' successfully
+
+2023-07-31 10:18:49 - [MESSAGE][PASSED] - Navigate to 'https://kasirdemo.belajarqa.com' successfully
+
+2023-07-31 10:18:49 - [TEST_STEP][PASSED] - setText(findTestObject("KasirAja/Login/txt_email"), "KasirAja_Test@Test.com"): Text 'KasirAja_Test@Test.com' is set on object 'Object Repository/KasirAja/Login/txt_email'
+
+2023-07-31 10:18:50 - [MESSAGE][PASSED] - Text 'KasirAja_Test@Test.com' is set on object 'Object Repository/KasirAja/Login/txt_email'
+
+2023-07-31 10:18:50 - [TEST_STEP][PASSED] - setText(findTestObject("KasirAja/Login/txt_password"), "123456"): Text '123456' is set on object 'Object Repository/KasirAja/Login/txt_password'
+
+2023-07-31 10:18:51 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/KasirAja/Login/txt_password'
+
+2023-07-31 10:18:51 - [TEST_STEP][PASSED] - click(findTestObject("KasirAja/Login/btn_login")): Object: 'Object Repository/KasirAja/Login/btn_login' is clicked on
+
+2023-07-31 10:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/KasirAja/Login/btn_login' is clicked on
+
+2023-07-31 10:18:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("KasirAja/Login/verify_home"), 0): Object 'Object Repository/KasirAja/Login/verify_home' is present
+
+2023-07-31 10:18:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-31 10:18:53 - [MESSAGE][PASSED] - Object 'Object Repository/KasirAja/Login/verify_home' is present
+
+2023-07-31 10:18:53 - [TEST_STEP][PASSED] - click(findTestObject("KasirAja/Login/btn_menu")): Object: 'Object Repository/KasirAja/Login/btn_menu' is clicked on
+
+2023-07-31 10:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/KasirAja/Login/btn_menu' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KasirAja/TC_04_AddKategori" time="5.259" classname="Test Cases/KasirAja/TC_04_AddKategori" status="PASSED">
+         <system-out><![CDATA[2023-07-31 10:18:53 - [TEST_CASE][PASSED] - Test Cases/KasirAja/TC_04_AddKategori: Test Cases/KasirAja/TC_04_AddKategori
+
+2023-07-31 10:18:53 - [TEST_STEP][PASSED] - click(findTestObject("KasirAja/Kategori/btn_kategori")): Object: 'Object Repository/KasirAja/Kategori/btn_kategori' is clicked on
+
+2023-07-31 10:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/KasirAja/Kategori/btn_kategori' is clicked on
+
+2023-07-31 10:18:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("KasirAja/Kategori/Verify_kategori"), 3): Object 'Object Repository/KasirAja/Kategori/Verify_kategori' is present
+
+2023-07-31 10:18:54 - [MESSAGE][PASSED] - Object 'Object Repository/KasirAja/Kategori/Verify_kategori' is present
+
+2023-07-31 10:18:54 - [TEST_STEP][PASSED] - click(findTestObject("KasirAja/Kategori/btn_tambah")): Object: 'Object Repository/KasirAja/Kategori/btn_tambah' is clicked on
+
+2023-07-31 10:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/KasirAja/Kategori/btn_tambah' is clicked on
+
+2023-07-31 10:18:55 - [TEST_STEP][PASSED] - setText(findTestObject("KasirAja/Kategori/txt_namakategori"), "Kertas"): Text 'Kertas' is set on object 'Object Repository/KasirAja/Kategori/txt_namakategori'
+
+2023-07-31 10:18:56 - [MESSAGE][PASSED] - Text 'Kertas' is set on object 'Object Repository/KasirAja/Kategori/txt_namakategori'
+
+2023-07-31 10:18:56 - [TEST_STEP][PASSED] - setText(findTestObject("KasirAja/Kategori/txt_deskripsikategori"), "Bahan dasar kertas"): Text 'Bahan dasar kertas' is set on object 'Object Repository/KasirAja/Kategori/txt_deskripsikategori'
+
+2023-07-31 10:18:56 - [MESSAGE][PASSED] - Text 'Bahan dasar kertas' is set on object 'Object Repository/KasirAja/Kategori/txt_deskripsikategori'
+
+2023-07-31 10:18:56 - [TEST_STEP][PASSED] - click(findTestObject("KasirAja/Kategori/btn_simpan")): Object: 'Object Repository/KasirAja/Kategori/btn_simpan' is clicked on
+
+2023-07-31 10:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/KasirAja/Kategori/btn_simpan' is clicked on
+
+2023-07-31 10:18:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("KasirAja/Kategori/alert_success"), 3): Object 'Object Repository/KasirAja/Kategori/alert_success' is present
+
+2023-07-31 10:18:58 - [MESSAGE][PASSED] - Object 'Object Repository/KasirAja/Kategori/alert_success' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-31 10:18:46 - [TEST_SUITE][PASSED] - Add_Kategori: Test Cases/KasirAja/TC_04_AddKategori]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

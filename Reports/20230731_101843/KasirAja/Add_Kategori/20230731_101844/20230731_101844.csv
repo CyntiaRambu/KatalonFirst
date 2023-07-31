@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add_Kategori,Chrome 115.0.0.0,,,2023-07-31 10:18:46,2023-07-31 10:18:58,12.236s,PASSED
+,,,,,,,
+Test Cases/KasirAja/TC_02_LoginSuccess - Copy,Chrome 115.0.0.0,,,2023-07-31 10:18:46,2023-07-31 10:18:53,6.790s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 10:18:46,2023-07-31 10:18:49,2.104s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 10:18:49,2023-07-31 10:18:49,0.136s,PASSED
+"navigateToUrl(""https://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-07-31 10:18:49,2023-07-31 10:18:49,0.752s,PASSED
+"setText(findTestObject(""KasirAja/Login/txt_email""), ""KasirAja_Test@Test.com"")",Chrome 115.0.0.0,,,2023-07-31 10:18:49,2023-07-31 10:18:50,0.826s,PASSED
+"setText(findTestObject(""KasirAja/Login/txt_password""), ""123456"")",Chrome 115.0.0.0,,,2023-07-31 10:18:50,2023-07-31 10:18:51,0.773s,PASSED
+"click(findTestObject(""KasirAja/Login/btn_login""))",Chrome 115.0.0.0,,,2023-07-31 10:18:51,2023-07-31 10:18:51,0.476s,PASSED
+"verifyElementPresent(findTestObject(""KasirAja/Login/verify_home""), 0)",Chrome 115.0.0.0,,,2023-07-31 10:18:51,2023-07-31 10:18:53,1.101s,PASSED
+"click(findTestObject(""KasirAja/Login/btn_menu""))",Chrome 115.0.0.0,,,2023-07-31 10:18:53,2023-07-31 10:18:53,0.348s,PASSED
+,,,,,,,
+Test Cases/KasirAja/TC_04_AddKategori,Chrome 115.0.0.0,,,2023-07-31 10:18:53,2023-07-31 10:18:58,5.259s,PASSED
+"click(findTestObject(""KasirAja/Kategori/btn_kategori""))",Chrome 115.0.0.0,,,2023-07-31 10:18:53,2023-07-31 10:18:54,0.559s,PASSED
+"verifyElementPresent(findTestObject(""KasirAja/Kategori/Verify_kategori""), 3)",Chrome 115.0.0.0,,,2023-07-31 10:18:54,2023-07-31 10:18:54,0.648s,PASSED
+"click(findTestObject(""KasirAja/Kategori/btn_tambah""))",Chrome 115.0.0.0,,,2023-07-31 10:18:54,2023-07-31 10:18:55,0.357s,PASSED
+"setText(findTestObject(""KasirAja/Kategori/txt_namakategori""), ""Kertas"")",Chrome 115.0.0.0,,,2023-07-31 10:18:55,2023-07-31 10:18:56,0.868s,PASSED
+"setText(findTestObject(""KasirAja/Kategori/txt_deskripsikategori""), ""Bahan dasar kertas"")",Chrome 115.0.0.0,,,2023-07-31 10:18:56,2023-07-31 10:18:56,0.895s,PASSED
+"click(findTestObject(""KasirAja/Kategori/btn_simpan""))",Chrome 115.0.0.0,,,2023-07-31 10:18:56,2023-07-31 10:18:57,0.462s,PASSED
+"verifyElementPresent(findTestObject(""KasirAja/Kategori/alert_success""), 3)",Chrome 115.0.0.0,,,2023-07-31 10:18:57,2023-07-31 10:18:58,1.273s,PASSED
