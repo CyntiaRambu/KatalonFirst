@@ -23,9 +23,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://kasirdemo.belajarqa.com')
 
-WebUI.setText(findTestObject('KasirAja/txt_email'), KasirAja_Test@Test.com)
+WebUI.setText(findTestObject('KasirAja/Login/txt_email'), 'KasirAja_Test@Test.com')
 
-WebUI.setText(findTestObject('KasirAja/txt_password'), 123456)
+WebUI.setText(findTestObject('KasirAja/Login/txt_password'), '123456')
 
 WebUI.click(findTestObject('KasirAja/Login/btn_login'))
 
