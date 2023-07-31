@@ -31,31 +31,11 @@ WebUI.click(findTestObject('Saucedemo/Login/btn_login'))
 
 WebUI.verifyElementPresent(findTestObject('Saucedemo/Login/Verify_Home'), 0)
 
-WebUI.click(findTestObject('Saucedemo/Product/btn_Addtocart'))
+WebUI.click(findTestObject('Saucedemo/Login/btn_menu'))
 
-WebUI.click(findTestObject('Saucedemo/Product/btn_cart'))
+WebUI.click(findTestObject('Saucedemo/Login/btn_about'))
 
-WebUI.verifyElementPresent(findTestObject('Saucedemo/Product/verify_yourcart'), 0)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Saucedemo/Product/btn_checkout'))
-
-WebUI.verifyElementPresent(findTestObject('Saucedemo/Product/verify_yourinformation'), 0)
-
-WebUI.setText(findTestObject('Saucedemo/Product/txt_firstname'), 'Standard')
-
-WebUI.setText(findTestObject('Saucedemo/Product/txt_lastname'), 'User')
-
-WebUI.setText(findTestObject('Saucedemo/Product/txt_postalcode'), '13131')
-
-WebUI.click(findTestObject('Saucedemo/Product/btn_continue'))
-
-WebUI.verifyElementPresent(findTestObject('Saucedemo/Product/verify_overview'), 0)
-
-WebUI.click(findTestObject('Saucedemo/Product/btn_finish'))
-
-WebUI.verifyElementPresent(findTestObject('Saucedemo/Product/verify_completeorder'), 0)
-
-WebUI.click(findTestObject('Saucedemo/Product/btn_backhome'))
-
-WebUI.verifyElementPresent(findTestObject('Saucedemo/Login/Verify_Home'), 0)
+WebUI.closeBrowser()
 
