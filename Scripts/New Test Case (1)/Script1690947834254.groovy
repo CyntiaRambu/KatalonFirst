@@ -19,15 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\LENOVO\\Downloads\\MiMo.apk', true)
 
-Mobile.setText(findTestObject('Mimo/android.widget.Username'), 'user003323', 0)
+Mobile.setText(findTestObject('Object Repository/Mimo/android.widget.EditText (1)'), 'user003323', 0)
 
-Mobile.setText(findTestObject('Mimo/android.widget.password'), 'Pass@1234', 0)
+Mobile.setText(findTestObject('Object Repository/Mimo/android.widget.EditText (2)'), 'Pass@1234', 0)
 
-Mobile.tap(findTestObject('Mimo/android.widget.Button - MASUK'), 0)
+Mobile.tap(findTestObject('Object Repository/Mimo/android.widget.Button - MASUK (1)'), 0)
 
-Mobile.tap(findTestObject('Mimo/android.widget.Image - MiMoTheme.IconProfile_inactive (1)'), 0)
-
-WebUI.scrollToPosition(1, 2)
-
-Mobile.tap(findTestObject('Mimo/android.view.View-Keluar'), 0)
+Mobile.tap(findTestObject('Object Repository/Mimo/android.widget.Image - MiMoTheme.IconProfile_inactive (1)'), 0)
 
