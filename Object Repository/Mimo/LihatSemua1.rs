@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.view.View' and (text() = 'Lihat Semua' or . = 'Lihat Semua') and @index = '13']</value>
+         <value>//*[@class = 'android.view.View' and (text() = 'Lihat Semua' or . = 'Lihat Semua') and @index = '13' and @elementId = '00000000-0000-0195-0000-01c500000001']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.view.View</value>
-      <webElementGuid>737d5d98-6bee-4f5d-ba59-2c9187ff6603</webElementGuid>
+      <webElementGuid>d6bb9f9a-fbe5-481a-984d-ecc6caf51b1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Lihat Semua</value>
-      <webElementGuid>1df1d99a-3a09-40ba-b1f1-4a88b855034a</webElementGuid>
+      <webElementGuid>86e5a8e5-9071-4933-adbf-0e77102cb6d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +34,14 @@
       <name>index</name>
       <type>Main</type>
       <value>13</value>
-      <webElementGuid>b9c0d823-7324-42d4-bfa6-2ea84afc34b1</webElementGuid>
+      <webElementGuid>d91c7ee5-2836-40a7-bff2-280c61f209f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>elementId</name>
+      <type>Main</type>
+      <value>00000000-0000-0195-0000-01c500000001</value>
+      <webElementGuid>912a3518-fce0-45ad-810a-bd5fb43a4883</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

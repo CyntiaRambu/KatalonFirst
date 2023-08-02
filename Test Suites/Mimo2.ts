@@ -15,7 +15,7 @@
       <guid>a80473dc-8280-4d5f-9acd-2cc80c467c40</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MiMo/TC_02_LihatSemua</testCaseId>
+      <testCaseId>Test Cases/MiMo/TC_02_LihatSemuaPengumuman</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

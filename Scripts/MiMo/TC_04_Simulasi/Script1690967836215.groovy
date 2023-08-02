@@ -17,17 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\LENOVO\\Downloads\\MiMo.apk', true)
-
-Mobile.setText(findTestObject('Mimo/android.widget.Username'), 'user003323', 0)
-
-Mobile.setText(findTestObject('Mimo/android.widget.password'), 'Pass@1234', 0)
-
-Mobile.tap(findTestObject('Mimo/android.widget.Button - MASUK'), 0)
-
-Mobile.tap(findTestObject('Mimo/android.widget.Image - MiMoTheme.IconProfile_inactive (2)'), 0)
-
-Mobile.scrollToText('Keluar')
-
-Mobile.tap(findTestObject('Mimo/android.view.View-Keluar'), 0)
-

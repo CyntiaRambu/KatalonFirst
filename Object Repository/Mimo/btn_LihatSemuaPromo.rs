@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_LihatSemuaPromo</name>
+   <tag></tag>
+   <elementGuidId>b3ce85cb-fa82-44c2-8ed7-dec2dcf37c19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@elementId = '00000000-0000-0164-0000-011a00000000' and (text() = 'Lihat Semua' or . = 'Lihat Semua') and @class = 'android.view.View']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>elementId</name>
+      <type>Main</type>
+      <value>00000000-0000-0164-0000-011a00000000</value>
+      <webElementGuid>2053610a-0dd2-486e-a1db-fc36d28f717c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lihat Semua</value>
+      <webElementGuid>86015e9d-869d-4fb8-bef2-8b7d56711b0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.view.View</value>
+      <webElementGuid>fcd9d3a4-f8e1-40c1-bd18-d4c8c89f19e2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
