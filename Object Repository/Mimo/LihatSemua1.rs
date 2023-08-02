@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LihatSemua1</name>
+   <tag></tag>
+   <elementGuidId>b0c334f7-faa0-47d1-99f9-afc76e327f99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.view.View' and (text() = 'Lihat Semua' or . = 'Lihat Semua') and @index = '13']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.view.View</value>
+      <webElementGuid>737d5d98-6bee-4f5d-ba59-2c9187ff6603</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lihat Semua</value>
+      <webElementGuid>1df1d99a-3a09-40ba-b1f1-4a88b855034a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>13</value>
+      <webElementGuid>b9c0d823-7324-42d4-bfa6-2ea84afc34b1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
