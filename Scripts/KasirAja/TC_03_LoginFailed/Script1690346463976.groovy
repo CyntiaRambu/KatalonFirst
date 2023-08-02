@@ -31,5 +31,7 @@ WebUI.click(findTestObject('KasirAja/Login/btn_login'))
 
 WebUI.verifyElementPresent(findTestObject('KasirAja/Login/alert_login'), 3)
 
+WebUI.takeScreenshotAsCheckpoint('Login', FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.closeBrowser()
 

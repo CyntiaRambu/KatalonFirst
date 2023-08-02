@@ -33,6 +33,8 @@ WebUI.verifyElementPresent(findTestObject('KasirAja/Login/verify_home'), 0)
 
 WebUI.click(findTestObject('KasirAja/Login/btn_menu'))
 
+WebUI.takeScreenshotAsCheckpoint('KasirAja', FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('KasirAja/Login/btn_logout'))

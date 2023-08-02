@@ -31,3 +31,5 @@ WebUI.click(findTestObject('KasirAja/Login/btn_login'))
 
 WebUI.verifyElementPresent(findTestObject('KasirAja/Login/verify_home'), 0)
 
+WebUI.takeScreenshotAsCheckpoint('KasirAja', FailureHandling.CONTINUE_ON_FAILURE)
+
