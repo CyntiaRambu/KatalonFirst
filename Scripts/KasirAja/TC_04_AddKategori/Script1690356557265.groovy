@@ -27,7 +27,10 @@ WebUI.setText(findTestObject('KasirAja/Kategori/txt_namakategori'), 'Kertas')
 
 WebUI.setText(findTestObject('KasirAja/Kategori/txt_deskripsikategori'), 'Bahan dasar kertas')
 
+WebUI.takeScreenshotAsCheckpoint('kategori', FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.click(findTestObject('KasirAja/Kategori/btn_simpan'))
 
 WebUI.verifyElementPresent(findTestObject('KasirAja/Kategori/alert_success'), 3)
 
+WebUI.takeScreenshotAsCheckpoint('sucess', FailureHandling.CONTINUE_ON_FAILURE)

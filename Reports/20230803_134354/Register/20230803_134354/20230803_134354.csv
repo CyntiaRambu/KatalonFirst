@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,Chrome 115.0.0.0,,,2023-08-03 13:43:55,2023-08-03 13:44:06,10.396s,PASSED
+,,,,,,,
+Test Cases/KasirAja/TC_01_Register,Chrome 115.0.0.0,,,2023-08-03 13:43:56,2023-08-03 13:44:06,10.202s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-03 13:43:56,2023-08-03 13:43:58,2.396s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-03 13:43:58,2023-08-03 13:43:58,0.144s,PASSED
+"navigateToUrl(""https://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-08-03 13:43:58,2023-08-03 13:43:59,0.911s,PASSED
+"click(findTestObject(""KasirAja/Login/btn_register""))",Chrome 115.0.0.0,,,2023-08-03 13:43:59,2023-08-03 13:44:00,0.591s,PASSED
+"setText(findTestObject(""KasirAja/Login/txt_namatoko""), ""Manusia"")",Chrome 115.0.0.0,,,2023-08-03 13:44:00,2023-08-03 13:44:01,0.837s,PASSED
+"setText(findTestObject(""KasirAja/Login/txt_email""), "" Manusia@test.com"")",Chrome 115.0.0.0,,,2023-08-03 13:44:01,2023-08-03 13:44:02,0.796s,PASSED
+"setText(findTestObject(""KasirAja/Login/txt_password""), ""123456"")",Chrome 115.0.0.0,,,2023-08-03 13:44:02,2023-08-03 13:44:02,0.766s,PASSED
+"click(findTestObject(""KasirAja/Login/btn_regis""))",Chrome 115.0.0.0,,,2023-08-03 13:44:02,2023-08-03 13:44:03,0.557s,PASSED
+"verifyElementPresent(findTestObject(""KasirAja/Login/alert_register""), 3)",Chrome 115.0.0.0,,,2023-08-03 13:44:03,2023-08-03 13:44:04,1.033s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Daftar"", STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-03 13:44:04,2023-08-03 13:44:05,0.952s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-03 13:44:05,2023-08-03 13:44:06,0.960s,PASSED

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add_Kategori,Chrome 115.0.0.0,,,2023-08-02 16:57:52,2023-08-02 16:58:08,16.545s,PASSED
+,,,,,,,
+Test Cases/KasirAja/TC_02_LoginSuccess_withoutlogout,Chrome 115.0.0.0,,,2023-08-02 16:57:52,2023-08-02 16:58:00,8.254s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-02 16:57:52,2023-08-02 16:57:54,2.112s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-02 16:57:54,2023-08-02 16:57:55,0.165s,PASSED
+"navigateToUrl(""https://kasirdemo.belajarqa.com"")",Chrome 115.0.0.0,,,2023-08-02 16:57:55,2023-08-02 16:57:56,0.977s,PASSED
+"setText(findTestObject(""KasirAja/Login/txt_email""), ""KasirAja_Test@Test.com"")",Chrome 115.0.0.0,,,2023-08-02 16:57:56,2023-08-02 16:57:56,0.907s,PASSED
+"setText(findTestObject(""KasirAja/Login/txt_password""), ""123456"")",Chrome 115.0.0.0,,,2023-08-02 16:57:56,2023-08-02 16:57:57,0.880s,PASSED
+"click(findTestObject(""KasirAja/Login/btn_login""))",Chrome 115.0.0.0,,,2023-08-02 16:57:57,2023-08-02 16:57:58,0.465s,PASSED
+"verifyElementPresent(findTestObject(""KasirAja/Login/verify_home""), 0)",Chrome 115.0.0.0,,,2023-08-02 16:57:58,2023-08-02 16:57:59,1.367s,PASSED
+"takeScreenshotAsCheckpoint(""KasirAja"", CONTINUE_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-02 16:57:59,2023-08-02 16:58:00,1.135s,PASSED
+,,,,,,,
+Test Cases/KasirAja/TC_04_AddKategori,Chrome 115.0.0.0,,,2023-08-02 16:58:00,2023-08-02 16:58:08,8.095s,PASSED
+"click(findTestObject(""KasirAja/Kategori/btn_kategori""))",Chrome 115.0.0.0,,,2023-08-02 16:58:01,2023-08-02 16:58:01,0.543s,PASSED
+"verifyElementPresent(findTestObject(""KasirAja/Kategori/Verify_kategori""), 3)",Chrome 115.0.0.0,,,2023-08-02 16:58:01,2023-08-02 16:58:02,0.749s,PASSED
+"click(findTestObject(""KasirAja/Kategori/btn_tambah""))",Chrome 115.0.0.0,,,2023-08-02 16:58:02,2023-08-02 16:58:03,0.582s,PASSED
+"setText(findTestObject(""KasirAja/Kategori/txt_namakategori""), ""Kertas"")",Chrome 115.0.0.0,,,2023-08-02 16:58:03,2023-08-02 16:58:04,1.020s,PASSED
+"setText(findTestObject(""KasirAja/Kategori/txt_deskripsikategori""), ""Bahan dasar kertas"")",Chrome 115.0.0.0,,,2023-08-02 16:58:04,2023-08-02 16:58:05,1.018s,PASSED
+"takeScreenshotAsCheckpoint(""kategori"", CONTINUE_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-02 16:58:05,2023-08-02 16:58:06,0.951s,PASSED
+"click(findTestObject(""KasirAja/Kategori/btn_simpan""))",Chrome 115.0.0.0,,,2023-08-02 16:58:06,2023-08-02 16:58:06,0.656s,PASSED
+"verifyElementPresent(findTestObject(""KasirAja/Kategori/alert_success""), 3)",Chrome 115.0.0.0,,,2023-08-02 16:58:06,2023-08-02 16:58:08,1.152s,PASSED
+"takeScreenshotAsCheckpoint(""sucess"", CONTINUE_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-02 16:58:08,2023-08-02 16:58:08,0.844s,PASSED

@@ -25,9 +25,3 @@ Mobile.setText(findTestObject('Mimo/android.widget.password'), 'Pass@1234', 0)
 
 Mobile.tap(findTestObject('Mimo/android.widget.Button - MASUK'), 0)
 
-Mobile.tap(findTestObject('Mimo/android.widget.Image - MiMoTheme.IconProfile_inactive (2)'), 0)
-
-Mobile.scrollToText('Keluar')
-
-Mobile.tap(findTestObject('Mimo/android.view.View-Keluar'), 0)
-

@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\LENOVO\\Downloads\\MiMo.apk', true)
+Mobile.startApplication('C:\\Users\\LENOVO\\Documents\\Rambu\\Mimo Installer', true)
 
 Mobile.tap(findTestObject('Mimo/Eksplor Aplikasi Mitsui'), 0)
 
 Mobile.tap(findTestObject('Mimo/LihatSemua1'), 0)
+
+Mobile.delay(2)
 

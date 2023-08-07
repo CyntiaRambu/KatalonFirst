@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LihatSemuaPengumuman,,,,2023-08-03 16:59:36,2023-08-03 17:00:02,25.939s,PASSED
+,,,,,,,
+Test Cases/MiMo/TC_01_Login,,,,2023-08-03 16:59:36,2023-08-03 16:59:55,19.242s,PASSED
+"startApplication(""C:\Users\LENOVO\Downloads\MiMo.apk"", true)",,,,2023-08-03 16:59:36,2023-08-03 16:59:50,14.274s,PASSED
+"setText(findTestObject(""Mimo/android.widget.Username""), ""user003323"", 0)",,,,2023-08-03 16:59:50,2023-08-03 16:59:53,2.611s,PASSED
+"setText(findTestObject(""Mimo/android.widget.password""), ""Pass@1234"", 0)",,,,2023-08-03 16:59:53,2023-08-03 16:59:54,1.091s,PASSED
+"tap(findTestObject(""Mimo/android.widget.Button - MASUK""), 0)",,,,2023-08-03 16:59:54,2023-08-03 16:59:55,1.040s,PASSED
+,,,,,,,
+Test Cases/MiMo/TC_02_LihatSemuaPengumuman - Copy,,,,2023-08-03 16:59:55,2023-08-03 17:00:02,6.495s,PASSED
+"tap(findTestObject(""Mimo/LihatSemua1""), 0)",,,,2023-08-03 16:59:55,2023-08-03 16:59:59,4.139s,PASSED
+delay(2),,,,2023-08-03 16:59:59,2023-08-03 17:00:02,2.058s,PASSED

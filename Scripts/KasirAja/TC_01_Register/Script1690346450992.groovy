@@ -35,7 +35,7 @@ WebUI.click(findTestObject('KasirAja/Login/btn_regis'))
 
 WebUI.verifyElementPresent(findTestObject('KasirAja/Login/alert_register'), 3)
 
-WebUI.takeScreenshotAsCheckpoint('Daftar', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.takeFullPageScreenshotAsCheckpoint('Daftar', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

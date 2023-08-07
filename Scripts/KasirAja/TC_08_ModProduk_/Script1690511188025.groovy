@@ -55,3 +55,5 @@ WebUI.click(findTestObject('KasirAja/Produk/btn_simpan'))
 
 WebUI.verifyElementPresent(findTestObject('KasirAja/Kategori/alert_success'), 0)
 
+
+

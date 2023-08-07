@@ -25,7 +25,11 @@ WebUI.click(findTestObject('KasirAja/Kategori/btn_titikmenu'))
 
 WebUI.click(findTestObject('KasirAja/Kategori/btn_delkategori'))
 
+WebUI.takeScreenshotAsCheckpoint('kategori', FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.click(findTestObject('KasirAja/Kategori/btn_delete'))
 
 WebUI.verifyElementPresent(findTestObject('KasirAja/Kategori/alert_success'), 3)
+
+WebUI.takeScreenshotAsCheckpoint('sucess', FailureHandling.CONTINUE_ON_FAILURE)
 

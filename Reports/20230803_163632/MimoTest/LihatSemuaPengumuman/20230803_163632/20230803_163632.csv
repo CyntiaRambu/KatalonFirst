@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LihatSemuaPengumuman,,,,2023-08-03 16:36:38,2023-08-03 16:37:36,58.485s,PASSED
+,,,,,,,
+Test Cases/MiMo/TC_01_Login,,,,2023-08-03 16:36:38,2023-08-03 16:37:16,38.015s,PASSED
+"startApplication(""C:\Users\LENOVO\Downloads\MiMo.apk"", true)",,,,2023-08-03 16:36:39,2023-08-03 16:37:11,32.303s,PASSED
+"setText(findTestObject(""Mimo/android.widget.Username""), ""user003323"", 0)",,,,2023-08-03 16:37:11,2023-08-03 16:37:14,3.166s,PASSED
+"setText(findTestObject(""Mimo/android.widget.password""), ""Pass@1234"", 0)",,,,2023-08-03 16:37:14,2023-08-03 16:37:15,0.957s,PASSED
+"tap(findTestObject(""Mimo/android.widget.Button - MASUK""), 0)",,,,2023-08-03 16:37:15,2023-08-03 16:37:16,1.056s,PASSED
+,,,,,,,
+Test Cases/MiMo/TC_02_LihatSemuaPengumuman,,,,2023-08-03 16:37:16,2023-08-03 16:37:36,19.953s,PASSED
+"startApplication(""C:\Users\LENOVO\Downloads\MiMo.apk"", true)",,,,2023-08-03 16:37:17,2023-08-03 16:37:30,13.759s,PASSED
+"tap(findTestObject(""Mimo/Eksplor Aplikasi Mitsui""), 0)",,,,2023-08-03 16:37:30,2023-08-03 16:37:35,4.836s,PASSED
+"tapAtPosition(891, 1161)",,,,2023-08-03 16:37:35,2023-08-03 16:37:36,1.014s,PASSED
